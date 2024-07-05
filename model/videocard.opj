@@ -1,0 +1,131 @@
+(ExpressProject "videocard"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S001 (4155653)  [11/15/2023]-[05/16/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\videocard.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\videocard-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\videocard-pspicefiles\schematic1\videocard.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\videocard-pspicefiles\schematic1\videocard.sim"
+        (DisplayName "SCHEMATIC1-videocard")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (74S288
+      (FullPartName "74S288.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\74S.OLB")
+      (DeviceIndex "0"))
+    (74LS30
+      (FullPartName "74LS30.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\74LS.OLB")
+      (DeviceIndex "0"))
+    (74LS04
+      (FullPartName "74LS04.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\74LS.OLB")
+      (DeviceIndex "4"))
+    (74LS161A
+      (FullPartName "74LS161A.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\74LS.OLB")
+      (DeviceIndex "0"))
+    (74LS00
+      (FullPartName "74LS00.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\74LS.OLB")
+      (DeviceIndex "1"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "3"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (DigClock
+      (FullPartName "DigClock.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LA_A676-TYP
+      (FullPartName "LA_A676-TYP.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\OSRAM_SIDELED.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (IH5010
+      (FullPartName "IH5010.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANA_SWIT.OLB")
+      (DeviceIndex "0"))
+    (hlmp-1350
+      (FullPartName "hlmp-1350.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\OPTO.OLB")
+      (DeviceIndex "0"))
+    (74191
+      (FullPartName "74191.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Ashwin Soni")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources" ".\videocard.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 641"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 659")
+        (Scroll "960 669")
+        (Zoom "96")
+        (Occurrence "/"))
+      (Path "D:\ASHWIN\ONEDRIVE\DESKTOP\PSPICEFILES\VIDEOCARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
